@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+  <title>Document</title>
+</head>
+
+<body class="bg-gradient-to-r from-white via-blue-50 to-white min-h-screen">
+  
+  <nav class="bg-white border-gray-200">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="" class="flex items-center text-3xl font-bold rtl:space-x-reverse">
+        <span class="self-center whitespace-nowrap">Rauf</span>
+        <span class="self-center whitespace-nowrap text-blue-600">Plastic</span>
+      </a>
+      
+      <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <button type="button" class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center">Get started</button>
+        <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-cta" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+          </svg>
+        </button>
+      </div>
+      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+        <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+          <li>
+            <a href="#" class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700">About</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700">Services</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <section class="relative bg-cover bg-center bg-no-repeat flex items-center justify-center px-6 py-20" style="background-image: url('imgs/header_img.jpg');">
+    <!-- Dark Blue Overlay -->
+    <div class="absolute inset-0 bg-blue-950/60"></div>
+  
+    <!-- Content -->
+    <div class="relative max-w-3xl text-center text-white z-10">
+      <h1 class="text-5xl font-bold leading-tight">
+        Premium Plastic<br />
+        <span class="">Packaging Solutions</span>
+      </h1>
+      <p class="mt-6 text-lg">
+        We provide high-quality plastic packaging products for cosmetic, pharmaceutical, and household industries with customizable options to suit your brand needs.
+      </p>
+  
+      <!-- Buttons -->
+      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#" class="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition">
+          Explore Products →
+        </a>
+        <a href="https://wa.me/923204300922" class="inline-flex items-center justify-center px-6 py-3 border border-blue-500 text-blue-500 font-semibold rounded-lg hover:bg-blue-200 bg-blue-50 transition">
+          Contact Sales
+        </a>
+      </div>
+  
+      <!-- Trusted by section -->
+      <div class="mt-10 flex items-center justify-center gap-4">
+        <div class="flex -space-x-3">
+          <span class="w-8 h-8 rounded-full bg-blue-300 flex items-center justify-center font-bold text-white">T</span>
+          <span class="w-8 h-8 rounded-full bg-green-200 flex items-center justify-center font-bold text-white">P</span>
+          <span class="w-8 h-8 rounded-full bg-yellow-300 flex items-center justify-center font-bold text-white">C</span>
+        </div>
+        <span class="text-sm">Trusted by 500+ companies worldwide</span>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Produts Section -->
+  <section class="py-20 px-6">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-16">Our<span class="text-blue-600"> Products</span></h2>
+  
+      <div class="flex flex-col lg:flex-row items-center gap-10 my-20">
+        <!-- Image -->
+        <div class="w-full lg:w-1/2">
+          <img src="imgs/serums.jpg" alt="Serum Bottles" class="rounded-2xl shadow-2xl w-full" />
+        </div>
+  
+        <!-- Text Content -->
+        <div class="w-full lg:w-1/2">
+          <p class="text-blue-600 font-semibold text-lg">01</p>
+          <h3 class="text-3xl font-bold text-gray-900 mt-2">Serum Bottles</h3>
+          <p class="mt-4 text-gray-700 text-lg">
+            Crafting elegant and durable plastic serum bottles with precision for beauty and skincare products.
+            Our bottles ensure airtight seals, maintaining product freshness with a sleek, modern design.
+          </p>
+          <a
+            href="#"
+            class="mt-6 inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-full shadow hover:bg-blue-700 transition"
+          >
+            Explore More
+          </a>
+        </div>
+      </div>
+
+      <div class="flex flex-col lg:flex-row items-center gap-10 my-20">
+        <!-- Text Content -->
+        <div class="w-full lg:w-1/2">
+          <p class="text-blue-600 font-semibold text-lg">02</p>
+          <h3 class="text-3xl font-bold text-gray-900 mt-2">Jars Production</h3>
+          <p class="mt-4 text-gray-700 text-lg">
+            Producing high-quality plastic jars with precision, perfect for storing cosmetics, food, and more.
+            Our jars offer durability, airtight seals, and a sleek, modern design.
+          </p>
+          <a
+            href="#"
+            class="mt-6 inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-full shadow hover:bg-blue-700 transition"
+          >
+            Explore More
+          </a>
+        </div>
+
+        <!-- Image -->
+        <div class="w-full lg:w-1/2">
+          <img src="imgs/jars.jpg" alt="Serum Bottles" class="rounded-2xl shadow-2xl w-full" />
+        </div>
+        
+      </div>
+
+      <div class="flex flex-col lg:flex-row items-center gap-10 my-20">
+        <!-- Image -->
+        <div class="w-full lg:w-1/2">
+          <img src="imgs/tube.jpg" alt="Serum Bottles" class="rounded-2xl shadow-2xl w-full" />
+        </div>
+  
+        <!-- Text Content -->
+        <div class="w-full lg:w-1/2">
+          <p class="text-blue-600 font-semibold text-lg">03</p>
+          <h3 class="text-3xl font-bold text-gray-900 mt-2">Tubes & Lotions</h3>
+          <p class="mt-4 text-gray-700 text-lg">
+            Manufacturing premium plastic tubes and lotion bottles, designed for smooth dispensing and portability.
+            Our products ensure durability, leak-proof seals, and a sleek, professional appearance.
+          </p>
+          <a
+            href="#"
+            class="mt-6 inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-full shadow hover:bg-blue-700 transition"
+          >
+            Explore More
+          </a>
+        </div>
+      </div>
+
+      <div class="flex flex-col lg:flex-row items-center gap-10 my-20">
+        <!-- Text Content -->
+        <div class="w-full lg:w-1/2">
+          <p class="text-blue-600 font-semibold text-lg">04</p>
+          <h3 class="text-3xl font-bold text-gray-900 mt-2">Custom Bottles</h3>
+          <p class="mt-4 text-gray-700 text-lg">
+            Creating custom plastic bottles tailored to your specifications, ideal for a range of industries.
+            Our bottles offer unique designs, durability, and high-quality finishes for a professional touch.
+          </p>
+          <a
+            href="#"
+            class="mt-6 inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-full shadow hover:bg-blue-700 transition"
+          >
+            Explore More
+          </a>
+        </div>
+
+        <!-- Image -->
+        <div class="w-full lg:w-1/2">
+          <img src="imgs/cstm_btls.jpg" alt="Serum Bottles" class="rounded-2xl shadow-2xl w-full" />
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+  
+  <!-- What we offer -->
+  <section class="bg-[#f1f2ff] py-12">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-center gap-12">
+      <!-- Image -->
+      <div class="w-full lg:w-1/3 max-h-[400px] rounded-xl overflow-hidden">
+        <img src="imgs/offer.jpg" alt="Filling Bottle" class="w-full h-full object-cover rounded-xl" />
+      </div>
+  
+      <!-- Content -->
+      <div class="w-full lg:w-1/2 text-gray-800">
+        <h2 class="text-3xl font-extrabold mb-6">What we Offer</h2>
+  
+        <div class="space-y-6">
+          <!-- Item 1 -->
+          <div class="flex items-start gap-4">
+            <div class="text-4xl">
+              📋
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Minimum Order Quantity</h3>
+              <p class="text-gray-600">We offer flexible minimum order quantities, allowing you to create your very own branded products with ease.</p>
+            </div>
+          </div>
+  
+          <!-- Item 2 -->
+          <div class="flex items-start gap-4">
+            <div class="text-4xl">
+              🕒
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Lead Times</h3>
+              <p class="text-gray-600">Our efficient production process ensures fast turnaround times to get your private label products ready quickly.</p>
+            </div>
+          </div>
+  
+          <!-- Item 3 -->
+          <div class="flex items-start gap-4">
+            <div class="text-4xl">
+              📈
+            </div>
+            <div>
+              <h3 class="text-xl font-bold">Production Capabilities</h3>
+              <p class="text-gray-600">With scalable production capabilities, we support your brand's growth while maintaining quality and consistency.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Button -->
+        <div class="mt-8">
+          <a href="https://wa.me/923204300922" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full transition">
+            Contact Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Commitment to quality -->
+  <section class="bg-blue-800 text-white py-32">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-extrabold mb-12">Our Commitment to Quality</h2>
+  
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <!-- Quality Products -->
+        <div>
+          <div class="text-4xl mb-4">📈</div>
+          <h3 class="text-xl font-semibold mb-2">Quality Products</h3>
+          <p class="text-sm md:text-base">Exceeding industry standards for plastic product excellence.</p>
+        </div>
+  
+        <!-- Efficient Manufacturing -->
+        <div>
+          <div class="text-4xl mb-4">🏆</div>
+          <h3 class="text-xl font-semibold mb-2">Efficient Manufacturing</h3>
+          <p class="text-sm md:text-base">Utilizing advanced machines for precise and timely production.</p>
+        </div>
+  
+        <!-- Client Satisfaction -->
+        <div>
+          <div class="text-4xl mb-4">🏢</div>
+          <h3 class="text-xl font-semibold mb-2">Client Satisfaction</h3>
+          <p class="text-sm md:text-base">Dedicated to meeting and exceeding client expectations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+  <section class="bg-gray-100 py-16">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h3 class="text-lg font-medium text-gray-700 mb-2">Testimonials</h3>
+      <h2 class="text-3xl md:text-4xl font-extrabold mb-12">
+        What Our <span class="text-blue-600">Clients Say</span>
+      </h2>
+  
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Testimonial 1 -->
+        <div class="bg-white p-8 shadow-2xl">
+          <p class="text-gray-700 mb-6">
+            We ordered custom bottles for our cosmetics line, and the results were outstanding! The designs were exactly what we envisioned, and the quality exceeded our expectations. I recommend this company for anyone looking for good service.
+          </p>
+          <div class="h-1 w-10 bg-blue-600 mx-auto mb-4"></div>
+          <h4 class="text-xl font-bold">Aslam PlastiCo</h4>
+        </div>
+  
+        <!-- Testimonial 2 -->
+        <div class="bg-white p-8 shadow-2xl">
+          <p class="text-gray-700 mb-6">
+            We were on a tight schedule for our product launch, and this company delivered our bottles on time without compromising on quality. The team was extremely supportive and kept us updated throughout the process. A fantastic experience overall!
+          </p>
+          <div class="h-1 w-10 bg-blue-600 mx-auto mb-4"></div>
+          <h4 class="text-xl font-bold">Pindi Plastic</h4>
+        </div>
+  
+        <!-- Testimonial 3 -->
+        <div class="bg-white p-8 shadow-2xl">
+          <p class="text-gray-700 mb-6">
+            The bottles we ordered were not only durable but also had a premium look and feel. They’ve worked perfectly for our pharmaceutical products. We’ve already placed another order and look forward to working with them long term.
+          </p>
+          <div class="h-1 w-10 bg-blue-600 mx-auto mb-4"></div>
+          <h4 class="text-xl font-bold">Lahore Traders</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Team -->
+  <div class="relative bg-cover bg-center h-96 flex items-center justify-center text-white" style="background-image: url('imgs/team.jpg'); background-attachment: fixed;">
+    <div class="absolute inset-0 bg-blue-950/60"></div>
+    <div class="relative z-10 text-center">
+      <h2 class="text-4xl font-bold mb-4">Start Crafting with Us Today</h2>
+      <p class="text-lg mb-6">Contact us now to experience our top-notch precision plastic manufacturing services.</p>
+      <a href="https://wa.me/923204300922" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full">
+        Contact Now
+      </a>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="bg-blue-800 text-white py-10 px-6 md:px-20">
+    <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- About Us -->
+      <div>
+        <h3 class="text-xl font-bold mb-4">About Us</h3>
+        <p class="text-sm leading-relaxed mb-4">
+          Mindpro Trading is a trusted name in Lahore, Pakistan known for custom plastic products produced with excellence and efficiency.
+        </p>
+        <p class="italic text-sm">Copyright © 2025 Mindpro Trading</p>
+      </div>
+      
+      <!-- Quick Links -->
+      <div>
+        <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#" class="hover:underline">Home</a></li>
+          <li><a href="#" class="hover:underline">About</a></li>
+          <li><a href="#" class="hover:underline">Services</a></li>
+          <li><a href="#" class="hover:underline">Contact</a></li>
+        </ul>
+      </div>
+      
+      <!-- Contact Info -->
+      <div>
+        <h3 class="text-xl font-bold mb-4">Contact Info</h3>
+        <ul class="space-y-3 text-sm">
+          <li class="flex items-start gap-2">
+            <svg class="w-5 h-5 mt-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v1.586a1 1 0 0 0 .293.707l9 9a1 1 0 0 0 1.414 0l9-9A1 1 0 0 0 22 7.586V6a2 2 0 0 0-2-2z"/></svg>
+            info@mindprotrading.com
+          </li>
+          <li class="flex items-start gap-2">
+            <svg class="w-5 h-5 mt-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M3 5a1 1 0 0 1 1-1h3.586a1 1 0 0 1 .707.293l2.414 2.414a1 1 0 0 1 0 1.414l-1.586 1.586a13.062 13.062 0 0 0 5.586 5.586l1.586-1.586a1 1 0 0 1 1.414 0l2.414 2.414a1 1 0 0 1 .293.707V20a1 1 0 0 1-1 1h-1c-9.941 0-18-8.059-18-18V6a1 1 0 0 1 1-1z"/></svg>
+            <a href="https://wa.me/923204300922" target="_blank" class="hover:underline">+92 320 4300922</a>
+          </li>
+          <li class="flex items-start gap-2">
+            <svg class="w-5 h-5 mt-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg>
+            Office No. 684 Aleechi wala Bagh Shafiq Abad,<br>
+            Lahore, Pakistan, 54000
+          </li>
+        </ul>
+      </div>
+  
+    </div>
+  </footer>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+</html>
